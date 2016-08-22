@@ -1,0 +1,168 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><div style="float:left; width:50%;">
+<div id="scrrewrite"><script>
+function rewrite(dada){
+ document.write(dada);
+}
+function addMeSyntax(obj){
+syntax = "<script>";
+obj.value = syntax;
+}
+</script></div>
+<p>This file when it's content is 
+reloaded into the text box once
+will recreat itself, in a manner after which all you have todo
+to write is just keep typing and then save.
+<textarea style="width: 100%; height: 171px;" onblur="rewrite(this.value)" onfocus="" id="txtINIT" spellcheck="false">&lt;div style="float:left; width:50%;"&gt;
+&lt;div id="scrrewrite"&gt;&lt;script&gt;
+function rewrite(dada){
+ document.write(dada);
+}
+function addMeSyntax(obj){
+syntax = "&lt;script&gt;";
+obj.value = syntax;
+}
+&lt;/script&gt;&lt;/div&gt;
+&lt;p&gt;This file when it's content is 
+reloaded into the text box once
+will recreat itself, in a manner after which all you have todo
+to write is just keep typing and then save.
+&lt;textarea style="width: 100%; height: 171px;" 
+onblur="rewrite(this.value)" onfocus="" 
+id="txtINIT" spellcheck="false"&gt;&lt;/textarea&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+</textarea></p>
+</div>
+
+
+
+<style>
+body{
+color: green;
+margin: 0 10 0 0px;
+background-color: 003300;}
+
+#txtINIT{
+color: green;
+background-color: 003322;
+padding: 10 5 10 30px;
+border: none;
+}
+</style><div style="float:left; width:50%;">
+<div id="scrrewrite"><script>
+function rewrite(dada){
+ document.write(dada);
+}
+function addMeSyntax(obj){
+syntax = "<script>";
+obj.value = syntax;
+}
+</script></div>
+<p>This file when it's content is 
+reloaded into the text box once
+will recreat itself, in a manner after which all you have todo
+to write is just keep typing and then save.
+<textarea style="width: 100%; height: 171px;" onblur="rewrite(this.value)" onfocus="" id="txtINIT" spellcheck="false">&lt;script&gt;
+ function inject(obj){
+   obj.innerHTML = "aaaaaaaaaaaaa";
+}
+&lt;/script&gt;</textarea></p>
+</div>
+
+
+
+<div style="float:left; width:50%;">
+<div id="scrrewrite"><script>
+function rewrite(dada){
+ document.write(dada);
+}
+function addMeSyntax(obj){
+syntax = "<script>";
+obj.value = syntax;
+}
+</script></div>
+<p>This file when it's content is 
+reloaded into the text box once
+will recreat itself, in a manner after which all you have todo
+to write is just keep typing and then save.
+<textarea style="width: 100%; height: 171px;" onblur="rewrite(this.value)" onfocus="" id="txtINIT" spellcheck="false">&lt;script&gt;
+inject(a);
+&lt;/script&gt;</textarea></p>
+</div>
+
+
+
+<div style="float:left; width:50%;">
+<div id="scrrewrite"><script>
+function rewrite(dada){
+ document.write(dada);
+}
+function addMeSyntax(obj){
+syntax = "<script>";
+obj.value = syntax;
+}
+</script></div>
+<p>This file when it's content is 
+reloaded into the text box once
+will recreat itself, in a manner after which all you have todo
+to write is just keep typing and then save.
+<textarea style="width: 100%; height: 171px;" onblur="rewrite(this.value)" onfocus="" id="txtINIT" spellcheck="false">&lt;div id="crap"&gt;
+hello
+&lt;/div&gt;</textarea></p>
+</div>
+
+
+
+<script>
+ function inject(){
+   
+}
+</script>So in order to inject the object has to be written, so the tag itself hastobe accessed first via a getElement.<div id="crap">aaaaaaaaaaaaa</div><script>
+ function inject(obj){
+   obj.innerHTML = "WOWOWOW";
+}
+</script><script>
+inject(document.getElementById("crap"));
+</script><script>
+ function inject(obj){
+   obj.innerHTML = "hohohohohoh";
+}
+</script><script>
+inject(document.getElementById("crap"));
+</script><div style="float:left; width:50%;">
+<div id="scrrewrite"><script>
+function rewrite(dada){
+ document.write(dada);
+}
+function addMeSyntax(obj){
+syntax = "<script>";
+obj.value = syntax;
+}
+</script></div>
+<p>This file when it's content is 
+reloaded into the text box once
+will recreat itself, in a manner after which all you have todo
+to write is just keep typing and then save.
+<textarea style="width: 100%; height: 171px;" onblur="rewrite(this.value)" onfocus="" id="txtINIT" spellcheck="false">&lt;script&gt;
+a = document.getElementById("crap"); 
+&lt;/script&gt;</textarea></p>
+</div>
+
+
+
+<script>
+a = 
+</script><script>
+a = document.getElementById("crap"); 
+</script><script>
+inject(a);
+</script><script>
+ function inject(obj){
+   obj.innerHTML = "aaaaaaaaaaaaa";
+}
+</script><script>
+inject(a);
+</script></body></html>
